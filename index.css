@@ -2,10 +2,23 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-image: url('https://img.freepik.com/vetores-gratis/papel-de-parede-de-fundo-de-flores-vetor-fofo_53876-136877.jpg?w=740&t=st=1709472632~exp=1709473232~hmac=9a0a7652e12618f696ca18e2ccc0cbe47ffb9e10acf8d4d65b11d1a6627dfa82');
+}
 @media (max-width: 420px) {
-.sectionBox {
-
-
 
 }
+.sectionBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+} 
+.inBoxSection{
+    width: 414px;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/564x/3e/79/1b/3e791b8f26bd4d6ae91cb863545d1482.jpg');
+    opacity: 90%;
+    
 }
