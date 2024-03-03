@@ -7,16 +7,21 @@ body {
     font-family: 'Pacifico', cursive;
     background-color: #2B2D42;
 }
-.sectionBox {
+main {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column
-   
-} 
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
 .inBoxSection{
-    width: 414px;
-    height: 44rem;
+    display: flex;
+    
+    width: 100%;
+    height: 100vh;
+
 }
 .confetti {
     overflow-y: hidden;
@@ -26,13 +31,13 @@ body {
     position: absolute;
   }
 .backSec {
-    display: flex;
     
-    width: 100%;
-    height: 100%;
+    
+    width: 1000px;
+    height: 100vh;
 
     background:url('https://img.freepik.com/vetores-gratis/papel-de-parede-de-fundo-de-flores-vetor-fofo_53876-136877.jpg?w=740&t=st=1709472632~exp=1709473232~hmac=9a0a7652e12618f696ca18e2ccc0cbe47ffb9e10acf8d4d65b11d1a6627dfa82') no-repeat;
-    background-size: 100rem ;
+    background-size: 1000px ;
     opacity: 100%;
     filter: blur(1px);
 
@@ -41,7 +46,7 @@ body {
 .gifSec {
     position: absolute;
     width: 100%;
-    height: 44rem;
+    height: 100%;
     background-image: url('https://i.pinimg.com/originals/6c/d7/4b/6cd74bae87b2025e3d671a23dbf4b3ca.gif');
     background-size: 600px;
 
@@ -168,49 +173,5 @@ body {
     height: 150px;
     
 }
-@media (max-width: 414px){
-    .backSec {
-        height: 740px;
-        background-size: 101rem ;
-  
-    
-    }
-    
-    .gifSec {
-        height: 45rem;
-        background-size: 600px;
 
-    }
-    .effect-text {
-        top: 155%;
-    }
-    .downSec {
-        
-        height: 896px;
-
-    }
-    .imgManuBox {
-        top: 240px;
-
-    }
-    .confetti {
-        
-        position: absolute;
-        top: 740px;
-        filter: blur(2px);
-      }
-      .downSec {
-
-        background-size: 1000px;
-
-      }
-      .capbirt {
-        top: -130px;
-        left: 4rem;
-        width: 190px;
-        height: 190px;
-        
-    }
-
-}
 

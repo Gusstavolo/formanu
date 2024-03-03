@@ -1,0 +1,69 @@
+@media (max-width: 414px) {
+    .inBoxSection{
+        display: flex;
+        position: relative;
+        width: 414px;
+        height: 100vh;
+    
+    }
+   
+    .backSec {
+        
+        
+        width: 100%;
+        height: 100vh;
+    
+        background:url('https://img.freepik.com/vetores-gratis/papel-de-parede-de-fundo-de-flores-vetor-fofo_53876-136877.jpg?w=740&t=st=1709472632~exp=1709473232~hmac=9a0a7652e12618f696ca18e2ccc0cbe47ffb9e10acf8d4d65b11d1a6627dfa82') no-repeat;
+        background-size: 1300px ;
+       
+        filter: blur(1px);
+    
+    }
+    
+    .gifSec {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-image: url('https://i.pinimg.com/originals/6c/d7/4b/6cd74bae87b2025e3d671a23dbf4b3ca.gif');
+        background-size: 600px;
+    
+        top: 0;
+        
+        filter:saturate(10);
+    
+    }
+    
+    .perfilSec {
+        display: flex;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+       
+        
+       
+        
+    }
+    .imgPerfilSec {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top: 130px;
+        background-size: 100% ;
+       
+        border-radius: 30%;
+        box-shadow: 0px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    
+    }
+    .heartPerfil {
+        
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 420px;
+        background: url('./src/img/heart.png') no-repeat;
+        background-size: 100%;
+    }
+  }

@@ -2,54 +2,61 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - CSS Heart Particle Effects [Inspired by Atticus Koya]</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Document</title>
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
 <link rel="stylesheet" href="../index.css">
 
+<link rel="stylesheet" media="(max-width: 414px)" href="./src/styles/responsive.css" />
+
 
 </head>
 <body>
-
-  <section class="sectionBox">
+  <main>
+  <section>
       
       <div class="inBoxSection">
           
           <div class="backSec"></div>
-          <span class="gifSec"></span>
-          <span class="overSec"></span>
+          <div class="gifSec"></div>
+          <div class="overSec"></div>
 
           <div class="perfilSec">
-              <div id="perfil" class="imgPerfilSec"></div>
-              
-              <div class="heart"></div>
-              
-              </div>
-          </div>
-      <canvas class="confetti" id="canvas"></canvas>
-          
-      </div>
-      <div class="downSec">
-        <canvas class="confetti" id="canvas"></canvas>
-
-          <div class="imgManuBox">
-            <img  class="capbirt" src="./src/img/hlk.png" alt="">
-
-              <img class="imgManuzinha" src="/src/img/manuzinha.png" alt="manuzinha">
-
-          </div>
-          <div class="effect-text">
-              Parabéns
-            </div>
+            <div id="perfil" class="imgPerfilSec"></div>
             
-
-
-
+            <div class="heart"></div>
+            
+            </div>
+        </div>
+   
+        
       </div>
-      
+     
   </section>
+  <section>
+    <div class="downSec">
+      <canvas class="confetti" id="canvas"></canvas>
 
+        <div class="imgManuBox">
+          <img  class="capbirt" src="./src/img/hlk.png" alt="">
+
+            <img class="imgManuzinha" src="/src/img/manuzinha.png" alt="manuzinha">
+
+        </div>
+        <div class="effect-text">
+            Parabéns
+          </div>
+          
+
+
+
+    </div>
+    
+  </section>
+</main>
 
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
