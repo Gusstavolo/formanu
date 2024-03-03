@@ -1,3 +1,9 @@
 const perfil = document.getElementById('perfil');
 
-perfil.style.background = 'white'
+
+var imagesPerfil = [
+    "url('../src/img/ft1.jpeg')",
+    "url('../src/img/heart.png')"
+];
+
+perfil.style.backgroundImage = imagesPerfil[0];
