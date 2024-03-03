@@ -124,7 +124,7 @@
         
     }
     .effect-text {
-        top: 165%;
+        top: 1440px
 
     }
 
@@ -159,6 +159,11 @@
     .confetti {
         height: 103vh;
     }
+    .effect-text {
+        top: 1320px
+
+    }
+    
     
  
     
