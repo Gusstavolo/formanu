@@ -102,7 +102,7 @@ canvas.width = W;
 canvas.height = H;
 
 const canVS = document.querySelector(".canvas");
-Draw();
+
 
 
 canvas.style.opacity = 100 + '%';
@@ -121,8 +121,8 @@ function clearCon() {
     }
 }
  
-  
+/*Draw();
 setTimeout(() => {
     clearCon();
 }, 2000);
-
+*/
