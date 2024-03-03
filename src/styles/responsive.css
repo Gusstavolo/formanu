@@ -1,25 +1,107 @@
-@media (max-width: 1200px){
+@media (max-width: 1366px){
     .inBoxSection{
         display: flex;
-        position: relative;
-        width: 100px;
-        height: 100px;
+        width: 1366px;
+        height: 100vh;
     
     }
     .backSec {
         
         
-        width: 1200px;
-        height: 100px;
+        width: 1366px;
+        height: 100vh;
     
         background:url('https://img.freepik.com/vetores-gratis/papel-de-parede-de-fundo-de-flores-vetor-fofo_53876-136877.jpg?w=740&t=st=1709472632~exp=1709473232~hmac=9a0a7652e12618f696ca18e2ccc0cbe47ffb9e10acf8d4d65b11d1a6627dfa82') no-repeat;
-        background-size: 1700px ;
-       
-        filter: blur(1px);
+        background-size: 1400px ;
+      
     
     }
+    .gifSec {
+        position: absolute;
+        width: 1366px;
+        height: 100vh;
+        background-size: 800px;
+    
+        top: 0;
+        
+    
+    }
+    
+    .perfilSec {
+        display: flex;
+        
+       
+        top: 0px;
+        width: 100%;
+        height: 100vh;
+        
+       
+        
+    }
+    .imgPerfilSec {
+        display: flex;
+       
+        width: 300px;
+        height: 300px;
+        
+        
+       
+    
+    }
+    .heartPerfil {
+        
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        left: 1000px;
+        top: 420px;
+        background: url('./src/img/heart.png') no-repeat;
+        background-size: 100%;
+    }
+    .downSec {
+        display: flex;
+        width: 1366px;
+        height: 100vh;
+        background: url('https://i.pinimg.com/564x/3e/79/1b/3e791b8f26bd4d6ae91cb863545d1482.jpg') no-repeat;
+        background-size: 1700px;
+        
+    
+    }
+    .imgManuBox {
+        position: relative;
+        display: flex;
+        top: 210px;
+        
+    
+    }
+    .imgManuzinha {
+        
+        width: 300px;
+        height: 350px;
+        box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.2);
+    
+    }
+    
+    
+    .capbirt {
+        position: absolute;
+        top: -110px;
+        left: 25%;
+        width: 150px;
+        height: 150px;
+        
+    }
+    .effect-text {
+        top: 1240px
+
+    }
+
+
+
+
+
   }
-@media (max-width: 414px) {
+@media (max-width: 428px) {
     .inBoxSection{
         display: flex;
         position: relative;
