@@ -120,8 +120,8 @@ function clearCon() {
         }
     }
 }
- 
-/*Draw();
+ Draw();
+/*
 setTimeout(() => {
     clearCon();
 }, 2000);
