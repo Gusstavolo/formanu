@@ -1,36 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Te amo</title>
+  <meta charset="UTF-8">
+  <title>CodePen - CSS Heart Particle Effects [Inspired by Atticus Koya]</title>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="../index.css">
+
 </head>
 <body>
 
-    <section class="sectionBox">
-        
-        <div class="inBoxSection">
-            
-            <div class="backSec"></div>
-            <span class="gifSec"></span>
-            <span class="overSec"></span>
+  <section class="sectionBox">
+      
+      <div class="inBoxSection">
+          
+          <div class="backSec"></div>
+          <span class="gifSec"></span>
+          <span class="overSec"></span>
 
-            <div class="perfilSec">
-                <div id="perfil" class="imgPerfilSec"></div>
-                
-                <div class="heart"></div>
-                
-                </div>
+          <div class="perfilSec">
+              <div id="perfil" class="imgPerfilSec"></div>
+              
+              <div class="heart"></div>
+              
+              </div>
+          </div>
+      <canvas class="confetti" id="canvas"></canvas>
+          
+      </div>
+      <div class="downSec">
+          <div class="imgManuBox">
+
+              <img class="imgManuzinha" src="/src/img/manuzinha.png" alt="manuzinha">
+
+          </div>
+          <div class="effect-text">
+              Parabéns
             </div>
-        <canvas class="confetti" id="canvas"></canvas>
-            
-        </div>
-        
-    </section>
 
-<script src="./src/confetti.js"></script>
-<script src="./src/perfil.js"></script>
+
+
+      </div>
+      
+  </section>
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+<script src="../src/confetti.js"></script>
+<script src="../src/perfil.js"></script>
 </body>
-
 </html>

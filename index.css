@@ -4,20 +4,19 @@
 }
 
 body {
-    background-image: url('https://img.freepik.com/vetores-gratis/papel-de-parede-de-fundo-de-flores-vetor-fofo_53876-136877.jpg?w=740&t=st=1709472632~exp=1709473232~hmac=9a0a7652e12618f696ca18e2ccc0cbe47ffb9e10acf8d4d65b11d1a6627dfa82');
-}
-@media (max-width: 420px) {
-
+    font-family: 'Pacifico', cursive;
+    background-color: #2B2D42;
 }
 .sectionBox {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column
    
 } 
 .inBoxSection{
     width: 414px;
-    height: 100vh;
+    height: 44rem;
 }
 .confetti {
     overflow-y: hidden;
@@ -30,39 +29,34 @@ body {
     display: flex;
     
     width: 100%;
-    height: 100vh;
-    background-image: url('https://img.freepik.com/vetores-gratis/papel-de-parede-de-fundo-de-flores-vetor-fofo_53876-136877.jpg?w=740&t=st=1709472632~exp=1709473232~hmac=9a0a7652e12618f696ca18e2ccc0cbe47ffb9e10acf8d4d65b11d1a6627dfa82');
-    background-size: 1000px;
-    opacity: 90%;
+    height: 100%;
+
+    background:url('https://img.freepik.com/vetores-gratis/papel-de-parede-de-fundo-de-flores-vetor-fofo_53876-136877.jpg?w=740&t=st=1709472632~exp=1709473232~hmac=9a0a7652e12618f696ca18e2ccc0cbe47ffb9e10acf8d4d65b11d1a6627dfa82') no-repeat;
+    background-size: 100rem ;
+    opacity: 100%;
     filter: blur(1px);
 
 }
 
 .gifSec {
-    width: 100%;
-    height: 100vh;
-    background-image: url('https://i.pinimg.com/originals/6c/d7/4b/6cd74bae87b2025e3d671a23dbf4b3ca.gif');
     position: absolute;
-    bottom: 0vh;
-    background-size: 700px;
+    width: 100%;
+    height: 44rem;
+    background-image: url('https://i.pinimg.com/originals/6c/d7/4b/6cd74bae87b2025e3d671a23dbf4b3ca.gif');
+    background-size: 600px;
+
+    top: 0;
+    
     filter:saturate(10);
 
 }
-.overSec {
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    opacity: 5%;
-    position: absolute;
-    bottom: 0vh;
 
-}
 .perfilSec {
     display: flex;
     position: absolute;
     top: 0px;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     justify-content: center;
    
     
@@ -139,3 +133,44 @@ body {
 .heart {
   animation: heartbeat 3.3s infinite;
 }
+
+.downSec {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+.imgManuBox {
+    position: relative;
+    display: flex;
+    top: 200px;
+
+}
+.imgManuzinha {
+    
+    width: 300px;
+    height: 350px;
+
+}
+@media (max-width: 414px){
+    .backSec {
+        height: 740px;
+        background-size: 101rem ;
+  
+    
+    }
+    
+    .gifSec {
+        height: 45rem;
+        background-size: 600px;
+    
+    
+    
+    }
+
+}
+
