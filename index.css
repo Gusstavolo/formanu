@@ -189,3 +189,22 @@ main {
   .container:hover .overlay {
     opacity: 1;
   }
+  .overDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+.heartOverlay {
+  width: 100px;
+  height: 100px;
+  background: url('./src/img/heart.png') no-repeat;
+  background-size: 100%;
+
+
+}
+
+
+  
+ 
