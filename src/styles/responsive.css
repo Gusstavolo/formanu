@@ -1,7 +1,7 @@
 @media (max-width: 1366px){
     .inBoxSection{
         display: flex;
-        width: 1366px;
+        width: 100vw;
         height: 100vh;
     
     }
@@ -9,7 +9,7 @@
         
         
         width: 1366px;
-        height: 100vh;
+        
     
         background:url('https://img.freepik.com/vetores-gratis/papel-de-parede-de-fundo-de-flores-vetor-fofo_53876-136877.jpg?w=740&t=st=1709472632~exp=1709473232~hmac=9a0a7652e12618f696ca18e2ccc0cbe47ffb9e10acf8d4d65b11d1a6627dfa82') no-repeat;
         background-size: 1400px ;
@@ -18,11 +18,10 @@
     }
     .gifSec {
         position: absolute;
-        width: 1366px;
-        height: 100vh;
+        width: 100vw;
+        
         background-size: 800px;
-    
-        top: 0;
+
         
     
     }
@@ -201,10 +200,14 @@
         top: 1440px
 
     }
-    .overlay {
-        width: 100%;
-        height: 104vh;
-       
+    .overDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 100vb;
+    
+    
       }
 
 

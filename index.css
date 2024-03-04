@@ -4,18 +4,18 @@
     margin: 0;
     padding: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
     font-family: 'Pacifico', cursive;
     background-color: #2B2D42;
 }
 main {
+  
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
+  
 }
 
 .inBoxSection{
@@ -36,7 +36,7 @@ main {
     
     
     width: 1000px;
-    height: 100vh;
+    height: 100vw;
 
     background:url('https://img.freepik.com/vetores-gratis/papel-de-parede-de-fundo-de-flores-vetor-fofo_53876-136877.jpg?w=740&t=st=1709472632~exp=1709473232~hmac=9a0a7652e12618f696ca18e2ccc0cbe47ffb9e10acf8d4d65b11d1a6627dfa82') no-repeat;
     background-size: 1000px ;
@@ -178,14 +178,14 @@ main {
 
 .overlay {
     position: absolute;
-    display: flex;
+    display: none;
     
 
     flex-direction: column;
     align-items: center;
     
-    top: 0px;
-    right: 0px;
+    top: 0;
+    left: 0;
    
     transition: .5s ease;
     background-color: rgba(0, 0, 0, 0.94);
