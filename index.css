@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -177,10 +179,12 @@ main {
 .overlay {
     position:fixed;
     display: none;
-    bottom: 0;
-    
     height: 100vh;
     width: 100%;
+
+    left: 0;
+    bottom: 0;
+   
    
     transition: .5s ease;
     background-color: rgba(0, 0, 0, 0.7);
@@ -197,12 +201,19 @@ main {
 
   }
 .heartOverlay {
+  position: relative;
   width: 100px;
   height: 100px;
+  top: 50px;
   background: url('./src/img/heart.png') no-repeat;
   background-size: 100%;
 
 
+}
+.itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
