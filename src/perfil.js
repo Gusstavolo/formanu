@@ -16,8 +16,8 @@ perfil.style.backgroundImage = imagesPerfil[0];
 
 let cont = 0;
 function changeimg() {
-    
     if(cont == cont){
+        
         perfil.style.backgroundImage = imagesPerfil[cont];
         cont += 1;
     }
@@ -30,6 +30,7 @@ function changeimg() {
 }
 
 setInterval(() => {
+   
     changeimg();
 }, 2000);
 
