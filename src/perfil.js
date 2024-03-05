@@ -10,10 +10,11 @@ var imagesPerfil = [
     "url('../src/img/ft6.jpeg')",
     "url('../src/img/ft7.jpeg')",
     "url('../src/img/ft8.jpeg')",
+    "url('../src/img/allft.gif')",
 ];
 
-perfil.style.backgroundImage = imagesPerfil[0];
-
+perfil.style.backgroundImage = imagesPerfil[8];
+/*
 let cont = 0;
 function changeimg() {
     if(cont == cont){
@@ -34,3 +35,4 @@ setInterval(() => {
     changeimg();
 }, 2000);
 
+*/

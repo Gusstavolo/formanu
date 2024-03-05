@@ -226,6 +226,14 @@ main {
   font-size: 40px;
 
 }
+.h3ver {
+  position: relative;
+  padding: 21px;
+  line-height: 0.9;
+  text-align: justify;
+  font-size: 32px;
+
+}
 .spanamor {
   color: #f12b2b;
 }
